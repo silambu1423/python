@@ -1,0 +1,19 @@
+#tuple
+a=(1,2,3,4)
+b=list(a)
+b.pop()
+print(a)
+print(b)
+
+#set
+a={1,2,3,4,5,1}
+a.add(10)
+a.remove(4)
+print(a)
+
+#dictionary
+student = {
+    "name": "John",
+    "age": 21
+}
+print(student)
